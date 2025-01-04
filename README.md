@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust when working with unsafe code and vectors. The `bug.rs` file shows how directly manipulating the vector's raw pointer using `as_mut_ptr()` can lead to undefined behavior.  The `bugSolution.rs` file provides a safer alternative using vector indexing.
